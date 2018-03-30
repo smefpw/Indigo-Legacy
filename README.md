@@ -1,1 +1,2 @@
-# smef's Indigo 3.6.2
+# smef's Indigo 3 +
+Indigo 3.6.3
