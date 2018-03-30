@@ -218,7 +218,7 @@ namespace Settings
 }
 
 //Fixed http://smef.pw/indigo/ | all credits can be found there
-#define CHEAT_NAME "smef.pw & Troll Face's Indigo 3.6 (STABLE)"
+#define CHEAT_NAME "smef's Indigo 3.6.3"
 //#define WELCOME_TEXT "Welcome"
 #define WATER_MARK "smef.pw Indigo"
 #define AIMBOT_TEXT "Aim"

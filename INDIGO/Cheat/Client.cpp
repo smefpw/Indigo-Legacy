@@ -411,7 +411,7 @@ namespace Client
 					ImGui::Spacing();
 					ImGui::Separator();
 					ImGui::Spacing();
-					ImGui::Text("This Project is a free open source project made possible by Troll Face#1136");
+					
 
 					if (iWeaponID >= 10 && iWeaponID <= 30)
 					{
@@ -519,7 +519,7 @@ ImGui::PopItemWidth();
 ImGui::Spacing();
 ImGui::Separator();
 ImGui::Spacing();
-ImGui::Text("This Project is a free open source project made possible by Troll Face#1136");
+
 				}
 				else if (tabSelected == 2) // Visuals
 				{
@@ -703,7 +703,7 @@ ImGui::Text("This Project is a free open source project made possible by Troll F
 					ImGui::Separator();
 					ImGui::Spacing();
 
-					ImGui::Text("This Project is a free open source project made possible by Troll Face#1136");
+					
 				}
 				else if (tabSelected == 3) // Radar
 				{
@@ -724,7 +724,7 @@ ImGui::Text("This Project is a free open source project made possible by Troll F
 					ImGui::PushItemWidth(339.f);
 					ImGui::SliderInt("Range", &Settings::Radar::rad_Range, 1, 5000);
 					ImGui::SliderInt("Alpha", &Settings::Radar::rad_Alpha, 1, 255);
-					ImGui::Text("This Project is a free open source project made possible by Troll Face#1136");
+					
 				}
 				else if (tabSelected == 4) // knifebot
 				{
@@ -746,9 +746,9 @@ ImGui::Text("This Project is a free open source project made possible by Troll F
 					ImGui::SliderInt("Dist to attack 2", &Settings::Knifebot::knf_DistAttack2, 1, 100);
 					ImGui::Separator();
 					ImGui::Spacing();
-					ImGui::Text("This Project is a free open source project made possible by Troll Face#1136");
+					
 				}
-				//Fixed by smef#2433 and Troll Face#1136 on discord
+
 				else if (tabSelected == 5) // Misc
 				{
 					const char* skybox_items[] =
@@ -842,7 +842,7 @@ ImGui::Text("This Project is a free open source project made possible by Troll F
 					ImGui::Checkbox("NoSky (Spoof)", &Settings::Misc::misc_NoSky);
 					ImGui::Separator();
 					ImGui::Spacing();
-					ImGui::Text("This Project is a free open source project made possible by Troll Face#1136");
+					
 				}
 				else if (tabSelected == 6)
 				{
